@@ -13,7 +13,7 @@ kursMenu=InlineKeyboardMarkup(
             InlineKeyboardButton(text="Foundation",callback_data="foundation"),
         ],
         [
-            InlineKeyboardButton(text="Grafik Disgn",callback_data="grafik"),
+            InlineKeyboardButton(text="Graphic Design",callback_data="grafik"),
         ],
     ],
     resize_keyboard=True
@@ -22,7 +22,7 @@ bizBotton=InlineKeyboardMarkup(
     inline_keyboard=[
        [
            InlineKeyboardButton(text="Instagram",url="https://www.instagram.com/opens_digital_school/"),
-           InlineKeyboardButton(text="Facebook", callback_data="facebook"),
+           InlineKeyboardButton(text="Facebook", url="https://www.facebook.com/Opensschool/"),
        ],
         [
 
@@ -33,6 +33,6 @@ bizBotton=InlineKeyboardMarkup(
     ],
     resize_keyboard=False
 )
-# kursMenuBotton=InlineKeyboardMarkup(row_width=1)
-# python=InlineKeyboardButton(text="Kursdan ro'yxatga yozilish!",callback_data="ruyxat")
-# kursMenuBotton.insert(python)
+kursMenuBotton=InlineKeyboardMarkup(row_width=1)
+python=InlineKeyboardButton(text="Kursga yozilish",callback_data="ruyxat")
+kursMenuBotton.insert(python)

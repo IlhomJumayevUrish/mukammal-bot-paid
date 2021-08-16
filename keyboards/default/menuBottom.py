@@ -6,12 +6,13 @@ menuAsosiy=ReplyKeyboardMarkup(
         ],
         [
             KeyboardButton(text='📆 Ochiq darslar vaqti!'),
-            KeyboardButton(text='👩‍💻 Ro\'yxatdan o\'ting!',request_contact=True),
+            KeyboardButton(text='📍 Location&Contact'),
+
+            # KeyboardButton(text='👩‍💻 Ro\'yxatdan o\'ting!',request_contact=True),
 
         ],
         [
-            KeyboardButton(text='🏢 Biz haqimizda!'),
-            KeyboardButton(text='📍 Location&Contact'),
+            # KeyboardButton(text='🏢 Biz haqimizda!'),
 # https://maps.google.com/maps?q=41.362787,69.193824&ll=41.362787,69.193824&z=16
         ],
         # [
@@ -38,11 +39,11 @@ topmenu=ReplyKeyboardMarkup(
 
 )
 
-menuStart = ReplyKeyboardMarkup(
-    keyboard = [
-        [
-            KeyboardButton(text='Contact', request_contact=True),
-        ],
-    ],
-    resize_keyboard=True
-)
+# menuStart = ReplyKeyboardMarkup(
+#     keyboard = [
+#         [
+#             KeyboardButton(text='Contact', request_contact=True),
+#         ],
+#     ],
+#     resize_keyboard=True
+# )
